@@ -1,0 +1,19 @@
+.checkbox-input {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.checkbox-label {
+  font-family: 'roboto';
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.input-selection {
+  margin: 12px;
+}
+
+.checkbox-container {
+  list-style-type: none;
+  margin-left: 0;
+}

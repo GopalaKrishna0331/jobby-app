@@ -1,0 +1,75 @@
+.navbar {
+  background-color: #272727;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 12px;
+}
+
+.header-logo {
+  width: 100px;
+  cursor: pointer;
+}
+
+.icon {
+  margin-left: 12px;
+  margin-right: 12px;
+  align-self: center;
+}
+
+.logOut-button {
+  background-color: transparent;
+  border: none;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.para {
+  font-family: 'roboto';
+  color: #ffffff;
+  font-size: 18px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.header-lg-logo {
+  margin-top: 8px;
+  width: 130px;
+  align-self: center;
+  cursor: pointer;
+}
+
+.tags {
+  display: flex;
+  align-self: center;
+  list-style-type: none;
+  margin: 0;
+}
+
+.link {
+  text-decoration-line: none;
+}
+
+.button-element {
+  background-color: #6366f1;
+  height: 40px;
+  width: 120px;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  align-self: center;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .d-lg-none {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .d-none {
+    display: none;
+  }
+}
